@@ -117,7 +117,6 @@ public class LongNumbersArithmeticControllerServlet extends HttpServlet {
 		return newArray;
 	}
 
-
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		doGet(request, response);
